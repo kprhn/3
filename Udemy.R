@@ -301,7 +301,7 @@ head(df)
 summary(mtcars)
 mean(mtcars$mpg)
 
-df [mtcars$cyl==6,]
+df [df$cyl==6,]
 df[1,4]
 df[,9:11]
 
